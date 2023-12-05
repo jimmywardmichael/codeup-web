@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register With Us</title>
+</head>
+<body>
+<!-- if you leave off id for input it still works for post and get method-->
+<!--If you leave off name for post and get methods it will not show field in query or body for both methods-->
+<form method="POST" action="https://request-inspector.glitch.me/">
+
+  <label for="emailname">Email:</label>
+  <input id="emailname" name="emailname" type="emailname" placeholder="Example@domain.com">
+  <br>
+
+  <label for="password">Password:</label>
+  <input id="password" name="password" type="password">
+  <br>
+
+
+<label for="bio">Bio:</label>
+<textarea id="bio"  name="bio" rows="10" cols="60"></textarea>
+<br>
+
+<p><h1>How did you hear about us?</h1></p>
+A <input type="radio" name="quiz_question_1" value="a">Billboard <br>
+B <input type="radio" name="quiz_question_2" value="b">Radio<br>
+C <input type="radio" name="quiz_question_3" value="c">Internet<br>
+D <input type="radio" name="quiz_question_4" value="d">Other<br>
+
+<br>
+
+
+  <label for="operatingSystem">Which operating system do you use?</label>
+  <select name="operatinSystem" id="operatingSystem">
+    <option value="windows">Windows</option>
+    <option value="Linux">Linux</option>
+    <option value="macOS">MacOS</option>
+    <option value="andriod">Android</option>
+    <option value="apple">Apple</option>
+  </select>
+
+<br>
+<h2>Would you like to sign up for El Formo Newsletter?</h2>
+
+<select name="newsletter_signup" id="newsletter_signup">
+  <option  value="n">No</option>
+  <option  value="y">Yes</option>
+</select>
+
+<br>
+<br>
+<br>
+<input type="submit" button ="submit">
+
+</form>
+</body>
+</html>
